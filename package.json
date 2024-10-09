@@ -1,0 +1,28 @@
+{
+  "name": "jsonrpc-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3",
+    "@types/amqplib": "^0.10.5",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.4",
+    "amqplib": "^0.10.4",
+    "axios": "^1.7.7",
+    "express": "^4.21.0",
+    "express-http-proxy": "^2.1.1",
+    "express-rate-limit": "^7.4.1",
+    "koa-compose": "^4.1.0",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.9.0",
+    "ts-node": "^10.9.2"
+  }
+}
